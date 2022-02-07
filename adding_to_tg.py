@@ -9,9 +9,6 @@ from aiogram.utils import executor
 bot = Bot(token=tg_bot_token)
 dp = Dispatcher(bot)
 
-bot = Bot(token=tg_bot_token)
-dp = Dispatcher(bot)
-
 # making bot sociable 
 @dp.message_handler(commands=["start"])
 async def start_command(message: types.Message):
