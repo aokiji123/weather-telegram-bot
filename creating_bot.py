@@ -9,6 +9,7 @@ def get_weather(city, open_weather_token):
 
     # weather conditions
     weather_conditions = {
+        
         "Clear": "Clear \U00002600",
         "Clouds": "Clouds \U00002601",
         "Rain": "Rain \U00002614",
