@@ -5,10 +5,6 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-
-bot = Bot(token=tg_bot_token)
-dp = Dispatcher(bot)
-
 bot = Bot(token=tg_bot_token)
 dp = Dispatcher(bot)
 
