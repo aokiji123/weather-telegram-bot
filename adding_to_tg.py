@@ -58,6 +58,7 @@ async def get_weather(message: types.Message):
 
         # outout weather data
         await message.reply(f"""
+            
             Today is {datetime.datetime.now().strftime("%Y-%m-%d")}
             Weather in city {city}:
             Temperature: {current_weather} C°, {weather_description_answer}

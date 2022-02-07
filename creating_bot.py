@@ -44,7 +44,7 @@ def get_weather(city, open_weather_token):
 
         # outout weather data
         print(f"""
-            Today is {datetime.datetime.now().strftime("%Y-%m-%d")}
+                Today is {datetime.datetime.now().strftime("%Y-%m-%d")}
             Weather in city {city}:
             Temperature: {current_weather} C°, {weather_description_answer}
             Humidity: {humidity} %
